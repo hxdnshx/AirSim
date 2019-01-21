@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
 #include "GameFramework/GameUserSettings.h"
+#include "common/AirSimSettings.hpp"
 #include "AirSimGameMode.generated.h"
 
 /**
@@ -19,6 +20,7 @@ public:
     virtual void StartPlay() override;
     
     AAirSimGameMode(const FObjectInitializer& ObjectInitializer);
+	msr::airlib::AirSimSettings& GetSetting();
     
 //private:
     //UGameUserSettings* GetGameUserSettings();

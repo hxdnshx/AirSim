@@ -22,7 +22,7 @@
 
 #include "PawnEvents.h"
 
-class PawnSimApi : public msr::airlib::VehicleSimApiBase {
+class AIRSIM_API PawnSimApi : public msr::airlib::VehicleSimApiBase {
 public: //types
     typedef msr::airlib::GeoPoint GeoPoint;
     typedef msr::airlib::Vector3r Vector3r;

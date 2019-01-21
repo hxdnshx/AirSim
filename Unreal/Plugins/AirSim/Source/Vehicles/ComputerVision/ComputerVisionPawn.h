@@ -16,7 +16,7 @@
 
 
 UCLASS()
-class AComputerVisionPawn : public APawn
+class AIRSIM_API AComputerVisionPawn : public APawn
 {
     GENERATED_BODY()
 

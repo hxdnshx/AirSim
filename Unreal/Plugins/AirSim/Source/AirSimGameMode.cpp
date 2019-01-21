@@ -42,6 +42,12 @@ public:
 
 static AUnrealLog GlobalASimLog;
 
+
+msr::airlib::AirSimSettings& AAirSimGameMode::GetSetting()
+{
+	return msr::airlib::AirSimSettings::singleton();
+}
+
 AAirSimGameMode::AAirSimGameMode(const FObjectInitializer& ObjectInitializer)
     : Super(ObjectInitializer)
 {
